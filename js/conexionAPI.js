@@ -4,7 +4,7 @@ y los lleva a una constante llamada datos.
 async function recibirDatosAPI() {
     try {
         // Se crea una constante url que recibe el link de la conexión   
-        const url = "https://alurageek-api-flax.vercel.app/";
+        const url = "https://alurageek-api-flax.vercel.app/Items";
         // Se realiza un fetch de tipo GET a la url
         const conexionDB = await fetch(url);
         // Verifica si la solicitud fue exitosa
@@ -27,7 +27,7 @@ luego recibe los datos de la conexión y los lleva a una constante llamada datos
 */
 async function crearNuevoItem(name, price, image) {
     // Se crea una constante con la URL 
-    const url2 = "https://alurageek-api-flax.vercel.app/";
+    const url2 = "https://alurageek-api-flax.vercel.app/Items";
     try {
         // Se crea una conexión de tipo POST, con la URL, el método, los headers, y los parámetros requeridos
         const conexion = await fetch(url2, {
@@ -55,7 +55,7 @@ async function crearNuevoItem(name, price, image) {
 }
 export async function eliminarItem(id) {
     // Se crea una constante con la URL, incluyendo el ID del ítem que se va a eliminar
-    const url = `https://alurageek-api-flax.vercel.app/${id}`;
+    const url = `https://alurageek-api-flax.vercel.app/Items?q=${id}`;
     try {
         // Se crea una conexión de tipo DELETE con la URL
         const conexion = await fetch(url, {
