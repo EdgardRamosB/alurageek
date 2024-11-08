@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "id": "1",
+      "name": "Teclado",
+      "price": "$12.00",
+      "image": "https://coolboxpe.vtexassets.com/arquivos/ids/348562-800-auto?v=638445626774670000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": "2",
+      "name": "Mouse",
+      "price": "$2.7",
+      "image": "https://rymportatiles.com.pe/cdn/shop/files/Mouse-Logitech-G203-lila.jpg?v=1696019954&width=1500"
+    },
+    {
+      "id": "3",
+      "name": "Pantalla ",
+      "price": "$12.99",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_962278-MLU72405562786_102023-F.webp"
+    },
+    {
+      "id": "4",
+      "name": "Laptop",
+      "price": "$1332.99",
+      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/882926982_1/w=1500,h=1500,fit=pad"
+    }
+  ]
+}
