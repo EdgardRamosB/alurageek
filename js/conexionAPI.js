@@ -55,7 +55,7 @@ async function crearNuevoItem(name, price, image) {
 }
 export async function eliminarItem(id) {
     // Se crea una constante con la URL, incluyendo el ID del ítem que se va a eliminar
-    const url = `https://alurageek-api-flax.vercel.app/Items?q=${id}`;
+    const url = `https://alurageek-api-flax.vercel.app/Items/${id}`;
     try {
         // Se crea una conexión de tipo DELETE con la URL
         const conexion = await fetch(url, {
